@@ -119,6 +119,11 @@ section p {
     font-weight: 700;
     text-transform: uppercase;
 }
+.logo img {
+    max-width: 100%; /* Ensures the logo does not exceed the width of its container */
+    height: auto; /* Maintains the aspect ratio */
+    max-height: 80px; /* Sets a maximum height for the logo */
+}
 .left-nav ul {
     margin: 0;
     padding: 0;
