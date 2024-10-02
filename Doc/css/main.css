@@ -1,10 +1,10 @@
 body{
-	background-color:#FFF;
+	background-color: black; /* Set background to black */
+    color: white; /* Set text color to white */
     font-family: "Lato", sans-serif;
     font-weight: 300;
 	font-size:16px;
 	line-height:18px;
-	color:#777;
 }
 
 p{
@@ -12,7 +12,7 @@ p{
 }
 
 a {
-    color: #aa0a5f;
+    color: white; /* White links */
 }
 
 a, a:hover, a:focus{
@@ -21,7 +21,7 @@ a, a:hover, a:focus{
 }
 h1, h2, h3,
 h4, h5, h6 {
-    color: #333;
+    color: white; /* Ensure all headings are white */
 	margin:0;
     font-weight: normal;
 }
