@@ -29,8 +29,10 @@
     <div id="preloader-active">
         <div class="preloader d-flex align-items-center justify-content-center">
             <div class="preloader-inner position-relative" style="width: 100px; height: 100px;">
-                <div class="preloader-circle" style="width: 100px; height: 100px; border: 5px solid #fff; border-radius: 50%; position: relative; animation: spin 1s linear infinite;"></div>
-                <div class="preloader-text pere-text" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 1.5rem; color: black;">AFC</div> <!-- Changed text color to black -->
+                <div class="preloader-circle" style="width: 100px; height: 100px; border: 5px solid black; border-radius: 50%; position: relative; animation: spin 1s linear infinite;"></div> <!-- Changed border color to black -->
+                <div class="preloader-img pere-text" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+                    <img src="assets/img/logo/loder.png" alt="" style="width: 50px; height: auto;"> <!-- Loader image -->
+                </div>
             </div>
         </div>
     </div>
@@ -43,7 +45,9 @@
                     <div class="menu-wrapper d-flex align-items-center justify-content-between">
                         <!-- Logo -->
                         <div class="logo">
-                            <a href="index.html"><img src="assets/img/logo/logo.png" alt="" style="max-width: 100%; height: auto; width: 150px;"></a> <!-- Adjusted size -->
+                            <a href="index.html">
+                                <img src="assets/img/logo/logo.png" alt="" style="max-width: 100%; height: auto; width: auto; max-height: 80px;"> <!-- Adjusted size -->
+                            </a>
                         </div>
                         <!-- Main-menu -->
                         <div class="main-menu f-right d-none d-lg-block">
@@ -415,7 +419,7 @@
     </section>
     <!-- About Area End -->
     <!--? Blog Area
-    <!--? video_start -->
+    <!-- ? video_start -->
     <!-- <div class="video-area section-bg2 d-flex align-items-center"  data-background="assets/img/gallery/video-bg.png">
         <div class="container">
             <div class="video-wrap position-relative">
