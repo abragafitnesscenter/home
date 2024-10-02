@@ -13,6 +13,7 @@ p{
 
 a {
     color: white; /* White links */
+    transition: color 0.3s; /* Smooth transition for hover */
 }
 
 a, a:hover, a:focus{
@@ -224,6 +225,19 @@ section p {
     height: auto;
     margin-top: 10px;
     max-width: 100%;
+}
+
+/* Button Styles */
+.border-btn, .border-btn2, .btn {
+    background-color: transparent; /* Remove any button background colors */
+    color: white; /* Set button text to white */
+    border: 1px solid white; /* Optional: white border for buttons */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover */
+}
+
+.border-btn:hover, .border-btn2:hover, .btn:hover {
+    background-color: #444 !important; /* Dark grey on hover */
+    color: white; /* Keep text white on hover */
 }
 
 
