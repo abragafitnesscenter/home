@@ -8,3 +8,8 @@ https://abragafitnesscenter.github.io/home/
     - [ ] add new rates for abraga
     - [ ] add new logo 
     - [ ] add calendaring tool
+    - [ ] update the links at the bottom of the page
+
+
+## Coding References: 
+- https://rogerdudler.github.io/git-guide/
