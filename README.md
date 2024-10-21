@@ -5,10 +5,10 @@ https://abragafitnesscenter.github.io/home/
 
 ## Changelog
 - 2024-10-16: 
-    - [ ] add new rates for abraga
-    - [ ] add new logo 
+    - [x] add new rates for abraga
+    - [x] add new logo 
     - [ ] add calendaring tool
-    - [ ] update the links at the bottom of the page
+    - [x] update the links at the bottom of the page
 
 
 ## Coding References: 
