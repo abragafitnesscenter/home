@@ -3885,6 +3885,19 @@ hr {
 }
 
 /* line 50, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_pricing.scss */
+.pricing-area .properties .single-features .promo {
+  padding-left: 19px;
+}
+
+/* line 52, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_pricing.scss */
+.pricing-area .properties .single-features .promo p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+/* line 50, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_pricing.scss */
 .pricing-area .properties .single-features .features-caption {
   padding-left: 19px;
 }
